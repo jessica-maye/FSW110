@@ -1,0 +1,32 @@
+html {
+   
+    background-color: rgb(65, 224, 132);
+}
+h3 {
+    color: #360deb;
+    text-align: center;
+}
+
+
+.fancy0 {
+    symbols: element(firefox 33);
+    text-align: center;
+    font-style: italic;
+}
+
+.fancy1 {
+    text-align: center;
+}
+
+.fancy2 {
+    color: #360deb;
+    text-align: center;
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
