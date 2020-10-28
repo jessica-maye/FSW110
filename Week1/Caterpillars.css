@@ -2,11 +2,17 @@ html {
    
     background-color: rgb(65, 224, 132);
 }
+
+h1 {
+    color: #07031d;
+    text-align: center;
+    text-decoration: underline;
+}
+
 h3 {
     color: #360deb;
     text-align: center;
 }
-
 
 .fancy0 {
     symbols: element(firefox 33);
@@ -19,9 +25,8 @@ h3 {
 }
 
 .fancy2 {
-    color: #360deb;
+    color: #0d8d29;
     text-align: center;
-    text-decoration: underline;
 }
 
 a:link {
