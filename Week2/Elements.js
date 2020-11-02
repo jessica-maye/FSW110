@@ -20,3 +20,4 @@ document.body.append(newP)
 //style the text
 newP.style.textAlign = "center"
 newP.style.fontSize = "30px"
+
