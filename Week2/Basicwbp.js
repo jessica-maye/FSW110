@@ -15,6 +15,7 @@ var list1 = document.createElement("ol")
 list1.textContent = "A list"
 document.body.append(list1)
 
+
 //add at begining of list
 var newLi = document.createElement("li")
 newLi.textContent = "Monarch"
@@ -29,7 +30,7 @@ newLi.style.textAlign = "center"
 //Create a Second item in the list
 var newLi =document.createElement("li")
 newLi.textContent = "Butterflies"
-list1.prepend(newLi)
+list1.append(newLi)
 
 //New paragraph with text
 var newP = document.createElement("p")
