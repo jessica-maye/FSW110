@@ -5,18 +5,21 @@ document.body.prepend(newH1)
 //style the H1 
 newH1.style.textAlign = "center"
 
-
 //Create a navbar with links(doesn't need to work)
 //insert inside the entire body
 var navB =document.createElement("nav")
 navB.textContent = "Love them"
 document.body.insertBefore(navB, document.body.children[0])
 
+var list1 = document.createElement("ol")
+list1.textContent = "A list"
+document.body.append(list1)
+
 //add at begining of list
 var newLi = document.createElement("li")
 newLi.textContent = "Monarch"
-var list1 = document.getElementById("list1")
 list1.append(newLi)
+
 //style the list
 list1.style.display= "flex"
 list1.style.flexDirection = "column"
@@ -26,7 +29,6 @@ newLi.style.textAlign = "center"
 //Create a Second item in the list
 var newLi =document.createElement("li")
 newLi.textContent = "Butterflies"
-var list1 = document.getElementById("list1")
 list1.prepend(newLi)
 
 //New paragraph with text
@@ -40,3 +42,8 @@ newP.style.fontSize = "10px"
 
 document.body.style.background = "lightblue"
 
+//Footer for the website
+var footerZ = document.createElement("footer")
+footerZ.textContent = "2020 Webdev Student"
+document.body.append(footerZ)
+footerZ.style.textAlign = "center"
