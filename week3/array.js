@@ -2,13 +2,14 @@
 var newH1 = document.createElement("H1")
 newH1.textContent = "Hello World"
 document.body.append(newH1)
+document.body.style.backgroundColor = "green"
 
 for (var i = 0; i < 10; i++){
     var newH1 = document.createElement("H1")
 newH1.textContent = "Hello World"
 document.body.append(newH1)
     console.log("Hello World")
-    newH1.style.color = "red"
+    newH1.style.color = "yellow"
 }
 
 //create a numhered list
@@ -25,4 +26,5 @@ for(var i = 0; i < names.length; i++) {
     var newNames = document.createElement("li")
     newNames.textContent = names[i]
     list1.append(newNames)
+newNames.style.backgroundColor = "white"
 }
